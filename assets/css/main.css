@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    padding: 10%;
+    font: 20px Helvetica, sans-serif;
+    color: #f7fafc;
+    background-color: #1d1f21;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+article {
+    display: block;
+    text-align: left;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+a {
+    color: #2bbc8a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #287d60;
+    text-decoration: none;
+}
+
+@media only screen and (max-width : 480px)
+{
+    h1 {
+        font-size: 40px;
+    }
+}
